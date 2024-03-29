@@ -6,6 +6,7 @@ import profilePic from "../../public/images/profile/saiyam.jpg";
 import Image from "next/image";
 import Skills from "@/components/Skills";
 import Education from "@/components/Education";
+import TransitionEffect from "@/components/TransitionEffect";
 
 const about = () => {
   return (
@@ -14,6 +15,7 @@ const about = () => {
         <title>SAIYAM | About Page</title>
         <meta name="description" content="any description" />
       </Head>
+      <TransitionEffect/>
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout>
           <div className="mb-8 mt-6">

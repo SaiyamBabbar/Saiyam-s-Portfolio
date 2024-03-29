@@ -8,6 +8,7 @@ import Image from "next/image";
 import project1 from "../../public/images/projects/2.jpg";
 import project2 from "../../public/images/projects/simongame.webp";
 import project3 from "../../public/images/projects/chat.jpg";
+import TransitionEffect from "@/components/TransitionEffect";
 
 const FeaturedProjects = ({ type, title, summary, img, link, github }) => {
   return (
@@ -99,6 +100,7 @@ const projects = () => {
         <title>SAIYAM | Projects Page</title>
         <meta name="description" content="any" />
       </Head>
+      <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText text="Showcasing Innovation: A Collection of My Finest Projects" />
