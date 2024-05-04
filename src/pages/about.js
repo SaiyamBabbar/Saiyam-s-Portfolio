@@ -15,7 +15,7 @@ const about = () => {
         <title>SAIYAM | About Page</title>
         <meta name="description" content="any description" />
       </Head>
-      <TransitionEffect/>
+      <TransitionEffect />
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout>
           <div className="mb-8 mt-6">
@@ -31,11 +31,13 @@ const about = () => {
                 Biography
               </h2>
               <p className="font-medium text-2xl">
-                Hi, I'm <bold>Saiyam Babbar</bold>, a web developer and UI/UX designer with a
-                passion for creating beautiful, functional, and user-centered
-                digital experiences. With 2 years of experience in the field. I
-                am always looking for new and innovative ways to bring my
-                clients' visions to life.
+                Hi, I'm <bold>Saiyam Babbar</bold>, a web developer and UI/UX
+                with a knack for creating captivating digital experiences. With
+                a blend of creativity and technical expertise, I craft elegant
+                solutions that bridge functionality with aesthetics. Proficient
+                in HTML, CSS, JavaScript, and various design tools, I thrive on
+                turning ideas into polished, user-centric products. Constantly
+                pushing boundaries
               </p>
               <p className="my-4 font-medium text-2xl">
                 I believe that design is about more than just making things look
@@ -43,10 +45,10 @@ const about = () => {
                 enjoyable experiences for users.
               </p>
               <p className="font-medium text-2xl">
-                Whether I'm working on a website, I bring my commitment to
-                design excellence and user-centered thinking to every project I
-                work on. I look forward to the opportunity to bring my skills
-                and passion to your next project.
+                I delve into the latest trends and technologies to enhance user
+                engagement and satisfaction. From conceptualization to
+                execution, I bring ideas to life with precision and flair. Let's
+                collaborate to bring your vision to the digital realm.
               </p>
             </div>
 

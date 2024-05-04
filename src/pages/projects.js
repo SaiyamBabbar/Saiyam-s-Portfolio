@@ -5,9 +5,9 @@ import React from "react";
 import Link from "next/link";
 import { GithubIcon } from "@/components/Icons";
 import Image from "next/image";
-import project1 from "../../public/images/projects/2.jpg";
+import project1 from "../../public/images/projects/chill.png";
 import project2 from "../../public/images/projects/simongame.webp";
-import project3 from "../../public/images/projects/chat.jpg";
+import project3 from "../../public/images/projects/weather.png";
 import TransitionEffect from "@/components/TransitionEffect";
 
 const FeaturedProjects = ({ type, title, summary, img, link, github }) => {
@@ -107,11 +107,11 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 pt-6 gap-y-32">
             <div className="col-span-12">
               <FeaturedProjects
-                title="WanderLust"
+                title="Study Notion"
                 img={project1}
-                summary=" A dynamic MERN application enabling users to book hotels effortlessly, merging MongoDB, Express.js, React, and Node.js for seamless functionality. With intuitive UI/UX, robust backend, and real-time updates, it's a one-stop solution for travel enthusiasts seeking hassle-free accommodations."
-                link="https://example.com" // Replace with actual link
-                github="https://github.com/SaiyamBabbar/Wanderlust"
+                summary=" A dynamic MERN application enabling users to book hotels effortlessly, merging MongoDB, Express.js, React, and Node.js for seamless functionality. With intuitive UI/UX, robust backend, and real-time updates"
+                link="https://studynotion-edtech-project-main-omega.vercel.app/login" // Replace with actual link
+                github="https://github.com/SaiyamBabbar/studynotion-edtech-project-main"
                 type="Featured Project"
               />
             </div>
@@ -119,17 +119,17 @@ const projects = () => {
               <Project
                 title="Simon Game"
                 img={project2}
-                link="https://example.com" // Replace with actual link
+                link="https://simon-game-six-weld.vercel.app/" // Replace with actual link
                 github="https://github.com/SaiyamBabbar/Simon_game"
                 type="Web Project"
               />
             </div>
             <div className="col-span-6">
               <Project
-                title="ChatterBox Connect"
+                title="Weather-app"
                 img={project3}
-                link="https://example.com" // Replace with actual link
-                github="https://github.com/SaiyamBabbar/ChatterBox"
+                link="https://weather-app-main-snowy.vercel.app/" // Replace with actual link
+                github="https://github.com/SaiyamBabbar/weather-app-main"
                 type="Web Project"
               />
             </div>
